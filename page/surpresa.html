@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Cartinha 💌</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Sofia&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 1rem;
+      font-family: 'Sofia', cursive;
+      background: linear-gradient(to right, #fceabb, #f8b500);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      overflow-y: auto;
+    }
+
+    .envelop {
+      background: white;
+      padding: 1rem;
+      border-radius: 16px;
+      max-width: 360px;
+      width: 100%;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+      animation: fadeIn 1s ease forwards;
+    }
+
+    .note {
+      background: #ffe5ec;
+      margin-bottom: 1rem;
+      padding: 1rem;
+      border-radius: 12px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .note p {
+      margin: 0;
+      color: #333;
+      font-size: 1rem;
+      line-height: 1.5;
+      text-align: center;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @media (max-width: 400px) {
+      .note p {
+        font-size: 0.95rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="envelop">
+    <div class="note">
+      <p>Oii minha princesa, aqui estamos completando mais um mês juntos. É sempre uma alegria acordar e saber que tenho você ao meu lado. Sentir que isso será para sempre é magnífico.</p>
+    </div>
+    <div class="note">
+      <p>Quero que eles nunca acabem e que tenhamos sempre muitos outros pela frente.</p>
+    </div>
+    <div class="note">
+      <p>Você é a melhor coisa que me aconteceu. Obrigado por me escolher todos os dias.</p>
+      <p>Te amo muito! ❤️</p>
+    </div>
+  </div>
+</body>
+</html>
